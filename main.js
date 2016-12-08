@@ -21,7 +21,7 @@ function parseQuery (qstr) {
         var b = a[i].split('=');
         query[decodeURIComponent(b[0])] = decodeURIComponent(b[1]);
     }
-    return query;
+    return query; 
 }
 
 var map, scene, hash, query, scene_url;
